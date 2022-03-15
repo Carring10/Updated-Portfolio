@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <div class="introduction">
+          <img
+            src="https://avatars.dicebear.com/api/female/piper.svg"
+            alt="a placeholder image of me"
+          />
+          <p>
+            Hello, <br />
+            I'm <span>Carrington</span>, <br />
+            an aspiring web developer.
+          </p>
+        </div>
+      </section>
+
+      <header id="header">
+        <nav>
+          <a href="#about"><span>About Me</span></a>
+          <a href="#work"><span>My Work</span></a>
+          <a href="#contact"><span>Contact Me</span></a>
+        </nav>
+      </header>
+      <div class="section-container">
+        <section class="about-section">
+          <div class="about-text">
+            <h2>About Me</h2>
+
+            <p>
+              I am a 22 year old living in Charlotte, NC looking to kick start a career in
+              web development. I love coding, and it's how I mostly spend my time.
+              Although when I'm not at my desk, I can be found mountain biking, walking my
+              dog, or skating.
+            </p>
+          </div>
+          <figure class="about-images">
+            <div class="poloroid right" id="about">
+              <img src="images/Biking.jpg" alt="an image of me" />
+              <p>September, 2021</p>
+            </div>
+            <div class="poloroid left">
+              <img src="images/Piper.jpg" alt="an image of me" />
+              <p>December 26, 2019</p>
+            </div>
+            <div class="poloroid right">
+              <img src="images/Skating.jpg" alt="an image of me" />
+              <p>July, 2020</p>
+            </div>
+          </figure>
+        </section>
+      </div>
+
+      <div class="section-container">
+        <section class="work-section">
+          <h2 id="work">My Work</h2>
+          <figure>
+            <a href="https://carring10.github.io/Nyx/" target="_blank"
+              ><img src="images/Nyx.png" alt="a project" class="Nyx-project"
+            /></a>
+            <figcaption>HTML</figcaption>
+          </figure>
+          <figure>
+            <a href="https://carring10.github.io/Clock/" target="_blank"
+              ><img src="images/Clock.png" alt="a project" class="Clock-project"
+            /></a>
+            <figcaption>HTML, CSS, & JS</figcaption>
+          </figure>
+          <figure>
+            <a href="https://carring10.github.io/Calculator/" target="_blank"
+              ><img
+                src="images/Calculator.png"
+                alt="a project"
+                class="Calculator-project"
+              />
+              <figcaption>HTML, CSS, & JS</figcaption>
+            </a>
+          </figure>
+        </section>
+      </div>
+
+      <div class="section-container">
+        <section class="contact-section">
+          <div class="contact-text">
+            <h2 id="contact">Contact Me</h2>
+            <a class="email" href="mailto:hartis.c99@gmail.com">Email</a>
+            <a class="phone" href="tel:+7049686937">Phone</a>
+            <a
+              class="linkedin"
+              href="https://www.linkedin.com/feed/?trk=onboarding-landing"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a href="#top" class="back-to-top">&#129121;</a>
+      <div class="footer-content">
+        <p>Carrington Hartis</p>
+        <a href="https://github.com/Carring10" target="_blank"
+          ><img src="images/GitHub-Mark-Light-64px.png" target="_blank" />
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
